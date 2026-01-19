@@ -7,3 +7,7 @@ lis=["sajib","hasan"]
 print(lis)
 list=['true','false','true',]
 print(type(list))
+#Access list item
+sajib= ["chanel name ","website","group","pages"]
+
+print(sajib[1])
