@@ -11,3 +11,9 @@ print(type(list))
 sajib= ["chanel name ","website","group","pages"]
 
 print(sajib[1])
+#append
+sajib.append("google")
+sajib.append(12)
+print(sajib)
+sajib.insert(2,"python ")
+print(sajib)
