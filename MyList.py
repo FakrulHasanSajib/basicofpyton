@@ -30,3 +30,13 @@ print(sajib)
 #clear the list
 sajib.clear()
 print(sajib)
+
+
+#loop list by using for loop
+#join two lists
+num = [1,2,3,]
+num1 = [2,3,4,5,6,]
+# num2 =num + num1
+# print(num2)
+num.extend(num1)
+print(num)
