@@ -17,3 +17,17 @@ fruits = ["apple","banana","mango"]
 print(a)
 print(b)
 print(c)
+#tuple loop
+for x in fruits: print(x)
+for i in range(len(fruits)):print(i)
+f = ["apple","banana","mango"]
+i=1
+while i<len(f):
+    print(f[i])
+    i=i+1
+
+fruits = ["apple", "banana", "mango"]
+print(fruits[0])
+print(len(fruits))
+
+
