@@ -11,3 +11,9 @@ a = list(thistuple)
 a.append("qiki")
 thistuple = tuple(a)
 print(thistuple)
+# unpack tuple
+fruits = ["apple","banana","mango"]
+(a,b,c) = fruits
+print(a)
+print(b)
+print(c)
