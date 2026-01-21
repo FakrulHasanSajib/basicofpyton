@@ -5,3 +5,9 @@ print(tuples[:2])
 print(tuples[-5])
 #rnage of index
 print(tuples[5:9])
+#update tuples
+thistuple =("orange","banana","mango","apple")
+a = list(thistuple)
+a.append("qiki")
+thistuple = tuple(a)
+print(thistuple)
