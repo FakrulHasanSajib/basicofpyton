@@ -17,3 +17,13 @@ studentinfo ={
 }
 print(studentinfo)
 print(studentinfo["sajib"]["Location"])
+
+
+#Accesing item
+x = studentinfo.get("sajib")
+print(x)
+k= studentinfo.keys()
+
+y = studentinfo.items()
+print(y)
+print(k)
