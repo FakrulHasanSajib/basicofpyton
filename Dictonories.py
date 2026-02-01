@@ -27,3 +27,8 @@ k= studentinfo.keys()
 y = studentinfo.items()
 print(y)
 print(k)
+# loop in dictonary
+for x  in studentinfo:
+    print(x)
+    for a in studentinfo.values():
+        print(a)
